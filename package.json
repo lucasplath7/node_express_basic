@@ -1,0 +1,32 @@
+{
+  "name": "node_express_basic",
+  "version": "1.0.0",
+  "description": "basic local api for testing",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasplath7/node_express_basic.git"
+  },
+  "author": "Lucas Plath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasplath7/node_express_basic/issues"
+  },
+  "homepage": "https://github.com/lucasplath7/node_express_basic#readme",
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "knex": "^3.0.1",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  }
+}
