@@ -20,7 +20,7 @@ router.get(
     const users = await UserController.fetchAllUsers();
     setTimeout(() => {
       res.send(users);
-    }, 5000);
+    }, 1000);
   }
 )
 
@@ -34,7 +34,7 @@ router.get(
     const userData = await UserController.fetchUser(params.id);
     setTimeout(() => {
       res.send(userData);
-    }, 2000);
+    }, 1000);
   }
 )
 
@@ -46,7 +46,7 @@ router.post(
 
     setTimeout(() => {
       res.send(userId);
-    }, 2000)
+    }, 1000)
   }
 )
 
